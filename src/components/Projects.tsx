@@ -4,7 +4,7 @@ import { projects } from "../data"
 import { SectionHeader } from './SectionHeader'
 import { ProjectCard } from './ProjectCard'
 
-import type { ProjectCategory } from '../data'
+// import type { ProjectCategory } from '../data'
 
 // use project Category as the only source of truth (use Flatmap for btn)
 const categories = projects.flatMap((project) => project.category)
