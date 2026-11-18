@@ -696,7 +696,34 @@ button.contact-card {
   color: var(--text);
 }
 
-/* Phone Under (720 px) */
+/* ==========================================
+   11. TABLET (under 900px)
+   ========================================== */
+@media (max-width: 900px) {
+  .hero-inner {
+    grid-template-columns: 1fr;
+  }
+
+  .code-window {
+    display: none;   /* the v0 design hides it on smaller screens */
+  }
+
+  .hero h1 {
+    font-size: 50px;
+  }
+
+  .three-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .about-inner {
+    grid-template-columns: 1fr; 
+  }
+}
+
+/* ==========================================
+   12. PHONE (under 700px)
+   ========================================== */
 @media (max-width: 700px) {
   .menu-button {
     display: block;
@@ -724,7 +751,6 @@ button.contact-card {
     padding: 10px 0;
   }
 
-
   .hero-inner {
     padding-top: 70px;
     padding-bottom: 80px;
@@ -736,11 +762,6 @@ button.contact-card {
 
   .section {
     padding: 64px 0;
-  }
-
-  .section-header {
-    max-width: 640px;
-    margin-bottom: 40px;
   }
 
   .section-header h2 {
@@ -766,29 +787,5 @@ button.contact-card {
   .footer-links a {
     margin-left: 0;
     margin-right: 18px;
-  }
-}
-
-
-/* Tablet under (900px)*/
-@media (max-width: 900px) {
-  .hero-inner {
-    grid-template-columns: 1fr;
-  }
-
-  .code-window {
-    display: none;   /* the v0 design hides it on smaller screens */
-  }
-
-  .hero h1 {
-    font-size: 50px;
-  }
-
-  .three-grid {
-    grid-template-columns: 1fr 1fr;
-  }
-
-  .about-inner {
-    grid-template-columns: 1fr;
   }
 }
