@@ -13,7 +13,9 @@ export function Skills () {
         />
 
         {/* Skill session */}
-        <div className="three-col-grid">
+        {/*  */}
+        {/* <div className="three-col-grid" > */}
+        <div>
           {skills.map((skill) => (
             <div className="box" key={ skill.title }>
 
