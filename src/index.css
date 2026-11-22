@@ -642,9 +642,9 @@ button {
    ========================================== */
 .contact-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 20px;
-  max-width: 800px;
+  max-width: 900px;
 }
 
 .contact-card {
@@ -783,12 +783,18 @@ button {
     font-size: 28px;
   }
 
-  .projects-grid,
+  /* .projects-grid,
   .three-grid,
   .contact-grid {
     grid-template-columns: 1fr;
   }
 
+  .timeline-item {
+    grid-template-columns: 1fr;
+  } */
+  .projects-grid,
+  .three-grid,
+  .contact-grid,
   .timeline-item {
     grid-template-columns: 1fr;
   }
