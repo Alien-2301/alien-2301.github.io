@@ -33,7 +33,6 @@ export function Projects() {
             title="Projects"
             text="Tap Show details on any card for specifics."
           />
-        </div>
 
         {/* Filter  */}
         <div className="filters">
@@ -53,6 +52,7 @@ export function Projects() {
           {shownProjects.map((project) => (
             <ProjectCard key={project.title} project={project} />
           ))}
+        </div>
         </div>
       </section>
     );

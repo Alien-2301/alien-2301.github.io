@@ -3,7 +3,7 @@ import { SectionHeader } from "./SectionHeader"
 
 export function Skills () {
     return (
-<section id="skills" className="section">
+<section id="skills" className="section section-alt">
 
       <div className="container">
         <SectionHeader
@@ -13,9 +13,7 @@ export function Skills () {
         />
 
         {/* Skill session */}
-        {/*  */}
-        {/* <div className="three-col-grid" > */}
-        <div>
+        <div className="three-grid">
           {skills.map((skill) => (
             <div className="box" key={ skill.title }>
 

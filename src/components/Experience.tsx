@@ -3,7 +3,7 @@ import { SectionHeader } from './SectionHeader.js';
 
 export function Experience() {
     return(
-        <section id="expereince" className = "section section alt">
+        <section id="experience" className = "section section-alt">
             <div className = "container">
                 <SectionHeader eyebrow= 'The path so far' title = "Education and Experience"/>
 
